@@ -1,0 +1,11 @@
+BoundedContext ventas
+BoundedContext gestionCliente
+BoundedContext gestionpagos
+
+ContextMap prueba{
+
+contains ventas,gestionCliente,gestionpagos
+
+ventas -> gestionCliente
+
+}

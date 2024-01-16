@@ -2,10 +2,12 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: 
+  - init: | 
       sudo apt-get update
       sudo apt-get install -y graphviz
       pip install context-mapper
+  - name: gp validate
+
 vscode:
   extensions:
     - contextmapper.context-mapper-vscode-extension
