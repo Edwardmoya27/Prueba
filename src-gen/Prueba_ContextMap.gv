@@ -1,12 +1,12 @@
 digraph "ContextMapGraph" {
 graph ["imagepath"="/tmp/GraphvizJava"]
-"gestionCliente" ["margin"="0.3","orientation"="16","shape"="egg","fontsize"="16","style"="bold","label"="gestionCliente\n","fontname"="sans-serif"]
-"gestionpagos" ["margin"="0.3","orientation"="131","shape"="egg","fontsize"="16","style"="bold","label"="gestionpagos\n","fontname"="sans-serif"]
-"ventas" ["margin"="0.3","orientation"="32","shape"="egg","fontsize"="16","style"="bold","label"="ventas\n","fontname"="sans-serif"]
-"ventas" -> "gestionpagos" ["fontsize"="12","style"="bold","label"="Shared Kernel","dir"="none","fontname"="sans-serif"]
+"gestionCliente" ["margin"="0.3","orientation"="49","shape"="egg","fontsize"="16","style"="bold","label"="gestionCliente\n","fontname"="sans-serif"]
+"gestionpagos" ["margin"="0.3","orientation"="91","shape"="egg","fontsize"="16","style"="bold","label"="gestionpagos\n","fontname"="sans-serif"]
+"ventas" ["margin"="0.3","orientation"="242","shape"="egg","fontsize"="16","style"="bold","label"="ventas\n","fontname"="sans-serif"]
 "ventas" -> "gestionCliente" ["headlabel"=<<table cellspacing="0" cellborder="0" border="0">
 <tr><td bgcolor="white">D</td></tr>
 </table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
 <tr><td bgcolor="white">U</td></tr>
 </table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"ventas" -> "gestionpagos" ["fontsize"="12","style"="bold","label"="Shared Kernel","dir"="none","fontname"="sans-serif"]
 }
